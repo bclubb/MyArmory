@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArmory", "MyArmory\MyArmory.csproj", "{291AB1D1-BC23-463B-B81D-0962AC96B675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArmory.Tests", "MyArmory.Tests\MyArmory.Tests.csproj", "{2E2619A6-D8E2-49CF-9A34-F1F122810318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArmoryLibrary", "MyArmoryLibrary\MyArmoryLibrary.csproj", "{CF7D09BA-41DE-4B1C-895E-49228AA4CC37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{291AB1D1-BC23-463B-B81D-0962AC96B675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291AB1D1-BC23-463B-B81D-0962AC96B675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291AB1D1-BC23-463B-B81D-0962AC96B675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291AB1D1-BC23-463B-B81D-0962AC96B675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2619A6-D8E2-49CF-9A34-F1F122810318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2619A6-D8E2-49CF-9A34-F1F122810318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2619A6-D8E2-49CF-9A34-F1F122810318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2619A6-D8E2-49CF-9A34-F1F122810318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7D09BA-41DE-4B1C-895E-49228AA4CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7D09BA-41DE-4B1C-895E-49228AA4CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7D09BA-41DE-4B1C-895E-49228AA4CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7D09BA-41DE-4B1C-895E-49228AA4CC37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
