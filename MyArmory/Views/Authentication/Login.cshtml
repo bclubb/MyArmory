@@ -1,0 +1,25 @@
+﻿@model MyArmory.Models.UserLoginModel
+
+@{
+    // page title
+    ViewBag.Title = "Login";
+    
+    // base template
+    Layout = "~/Views/Template.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        
+        @using (Html.BeginForm())
+        {
+            
+            @Html.AntiForgeryToken();
+            @Html.ValidationSummary(true);
+            
+            
+            
+        }
+
+    </div>
+</div>

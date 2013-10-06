@@ -1,0 +1,49 @@
+﻿@model MyArmoryLibrary.Models.Character
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Template.cshtml";
+}
+
+@section Scripts {
+
+    @Scripts.Render("~/public/js")
+
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Character</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Level)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Level)
+            @Html.ValidationMessageFor(model => model.Level)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+    
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -12,7 +12,8 @@ namespace MyArmory
             bundles.Add(new StyleBundle("~/public/css").Include("~/public/css/bootstrap.css"));
 
             // js
-            bundles.Add(new ScriptBundle("~/public/js").Include("~/public/js/bootstrap.js"));
+            bundles.Add(new ScriptBundle("~/public/js").Include("~/public/js/jquery*",
+                                                                "~/public/js/bootstrap.js"));
         }
     }
 }
