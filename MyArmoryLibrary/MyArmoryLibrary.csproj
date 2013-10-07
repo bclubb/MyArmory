@@ -46,7 +46,6 @@
   <ItemGroup>
     <Compile Include="ArmoryDatabase.cs" />
     <Compile Include="Models\Character.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
